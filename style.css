@@ -23,6 +23,7 @@ header {
   background-color: rgba(253, 247, 237, 0.7);
   display: flex;
   align-items: center;
+  border-bottom: 1px solid rgb(117, 117, 117);
 }
 ul {
   display: flex;
