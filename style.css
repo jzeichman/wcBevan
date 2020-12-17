@@ -10,39 +10,48 @@ body {
 header {
   width: 100%;
 }
-.nameBanner p {
-  padding-top: 30px;
-  padding-left: 30px;
-}
 .nameBanner {
-  color: aqua;
-  background-image: url("longBanner.png");
-  background-size: contain;
-  font-size: x-large;
-  height: 70px;
-}
-.menuBar {
-  height: 25px;
+  display: flex;
 
+  justify-content: center;
+  background-color: black;
+}
+.handstyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.handstylePic {
+  height: 40px;
+  width: 90px;
+  margin: 7px;
+}
+
+.line {
+  margin: 2px;
+  width: 15px;
+  height: 2px;
+  background-color: honeydew;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10%;
+  margin: 10px;
+}
+.muralLink {
+  background-color: ;
   position: absolute;
-  top: 100px;
+  top: 90px;
   z-index: 1;
 }
 a {
   text-decoration: none;
 }
-a,
-a:visited {
-  color: inherit;
-}
-ul {
-  display: flex;
-  width: 100%;
-  margin-left: 30px;
-  margin-right: 15px;
-  list-style: none;
-  justify-content: space-around;
-}
+
 .homeContainer {
   margin: 10px;
 }
