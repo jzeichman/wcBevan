@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: helvetica;
+}
+header {
+  display: flex;
+  background-color: rgb(243, 243, 241);
+}
+.nameContainer {
+  padding-left: 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(243, 243, 241);
+}
+.menuContainer {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 25px;
+}
+.w {
+  height: 65px;
+  animation-name: fadeIn;
+  animation-duration: 1800ms;
+}
+.wComma {
+  height: 10px;
+  transform: translatey(29px);
+  animation-name: fadeIn2;
+  animation-duration: 1800ms;
+}
+.c {
+  height: 55px;
+  transform: translateX(-7px);
+  opacity: 100%;
+  animation-name: fadeIn3;
+  animation-duration: 1800ms;
+}
+.cComma {
+  height: 20px;
+  transform: translate(-9px, 26px);
+  animation-name: fadeIn4;
+  animation-duration: 1800ms;
+}
+.bevan {
+  height: 75px;
+  transform: translateX(-7px);
+  animation-name: fadeIn5;
+  animation-duration: 2000ms;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 100%;
+  }
+}
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 100%;
+  }
+}
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+}
+@keyframes fadeIn4 {
+  0% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 0%;
+  }
+  70% {
+    opacity: 100%;
+  }
+}
+@keyframes fadeIn5 {
+  0% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.landingImg {
+  height: 100vh;
+  background-image: url("wcLanding.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  height: 200px;
+  background-color: black;
+  display: flex;
+}
+.left-foot {
+  color: rgb(219, 219, 219);
+  height: 100%;
+  width: 33.3333%;
+  background-color: black;
+}
+.middle-foot {
+  color: rgb(219, 219, 219);
+  height: 100%;
+  width: 33.3333%;
+  background-color: black;
+}
+.right-foot {
+  color: rgb(219, 219, 219);
+  height: 100%;
+  width: 33.3333%;
+  background-color: black;
+}
+.footer-title {
+  height: 50px;
+  margin: 20px 0px 0px 20px;
+}
+.foot-content {
+  margin: 30px;
+}
+.instagramIcon {
+  height: 20px;
+}
