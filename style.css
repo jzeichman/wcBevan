@@ -6,12 +6,17 @@
 body {
   font-family: helvetica;
 }
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
 header {
   display: flex;
   background-color: rgb(243, 243, 241);
 }
 .nameContainer {
-  padding-left: 20px;
+  padding-left: 35px;
   height: 80px;
   display: flex;
   align-items: center;
@@ -23,38 +28,14 @@ header {
   display: flex;
   align-items: center;
   position: absolute;
-  right: 25px;
+  right: 35px;
 }
 .w {
   height: 65px;
-  animation-name: fadeIn;
-  animation-duration: 1800ms;
-}
-.wComma {
-  height: 10px;
-  transform: translatey(29px);
-  animation-name: fadeIn2;
-  animation-duration: 1800ms;
-}
-.c {
-  height: 55px;
-  transform: translateX(-7px);
-  opacity: 100%;
-  animation-name: fadeIn3;
-  animation-duration: 1800ms;
-}
-.cComma {
-  height: 20px;
-  transform: translate(-9px, 26px);
-  animation-name: fadeIn4;
-  animation-duration: 1800ms;
-}
-.bevan {
-  height: 75px;
 }
 
 .landingPageWindow {
-  height: 80vh;
+  height: 75vh;
   overflow: hidden;
 }
 .landingDiv {
@@ -83,7 +64,7 @@ header {
   text-shadow: 1px 1px 17px black;
   font-size: 3em;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 40px;
 }
 .mainBodyContainer {
@@ -94,17 +75,27 @@ header {
 .bodyLeftColumn {
   width: 50%;
   height: 100%;
+  text-align: center;
+}
+.bodyOption {
+  margin-top: 60px;
+}
+.bodyOptionText {
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(51, 51, 51);
 }
 .cacoMain {
   width: 275px;
   display: block;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 .bodyRightColumn {
   width: 50%;
   height: 100%;
+  text-align: center;
 }
 footer {
   height: 200px;
@@ -138,4 +129,25 @@ footer {
 }
 .instagramIcon {
   height: 20px;
+}
+.muralContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.leftArrow {
+}
+.muralWindow {
+  display: flex;
+  overflow: hidden;
+  width: 90%;
+
+  border: 1px solid black;
+}
+.muralPic {
+  width: 100%;
+}
+.imgTrack {
+  display: flex;
 }
