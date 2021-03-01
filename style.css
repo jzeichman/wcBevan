@@ -59,13 +59,17 @@ header {
     transform: scale(1.1);
   }
 }
+
 .muralGalleryText {
   color: white;
   text-shadow: 1px 1px 17px black;
   font-size: 3em;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 40px;
+}
+.landingMapIcon {
+  width: 20px;
 }
 .mainBodyContainer {
   height: 1300px;
@@ -134,20 +138,40 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
-.leftArrow {
+.arrow {
+  width: 25px;
+  margin: 15px;
 }
 .muralWindow {
   display: flex;
-  overflow: hidden;
-  width: 90%;
 
-  border: 1px solid black;
-}
-.muralPic {
-  width: 100%;
+  overflow: hidden;
+  max-width: 80%;
+
+  position: relative;
 }
 .imgTrack {
+  align-items: center;
   display: flex;
+  transition: 1s ease;
+}
+
+.muralPic {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+
+  height: auto;
+}
+.muralDescription {
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: 80%;
+  height: 50px;
+  width: auto;
+  border: 1px solid red;
 }
